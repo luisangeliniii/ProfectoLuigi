@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProyectoLuis</string>
+    <string name="result">Comparacion</string>
+    <string name="boton">Boton</string>
+    <string name="text1">Palabra 1</string>
+    <string name="text2">Palabra 2</string>
+</resources>

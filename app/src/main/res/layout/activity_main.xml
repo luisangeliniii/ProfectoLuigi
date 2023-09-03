@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:autofillHints="name"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="casual"
+        android:hint="@string/text1"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0027FF"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:autofillHints="name"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="casual"
+        android:hint="@string/text2"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#0027FF"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/boton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="319dp"
+        android:layout_height="75dp"
+        android:text="@string/result"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+</LinearLayout>
